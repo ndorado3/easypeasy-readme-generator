@@ -1,17 +1,18 @@
-# iop
+# Readme sample 
 
 ![License badge](https://img.shields.io/badge/License-MIT-blue.svg)
   
 ## Description 
-  sldjfldjf ldjfl 
 
-## Table of Content (test) 
+Professional README generator
+
+## Table of Content  
 
 * [Installation](#installation)
 
 * [Usage](#usage)
 
-* [Crontribution](#contribution)
+* [Contribution](#contribution)
 
 * [Tests](#tests)
 
@@ -23,26 +24,27 @@
 
 ## Installation
 Please follow these steps in order to install the dependencies that enable the application: 
-ljeflj
+to invoked application use the node index.js command
 
 ## Usage
 The following are instructions on how this application works:
-asojefl
+command index.js
 
 ## Contribution
 The following were contributors to this project: 
-laef
+Nadia Dorado
   
 ## Tests
 To run the test, please run the following command: 
-ldskfk;
+n/a
 
 
 ## License
 This project is license under MIT license. 
-For more information about this MIT license, please click on "License Link": 
-  [License Link](https://opensource.org/licenses/MIT)
+For more information about MIT license, please click 
+[Here](https://opensource.org/licenses/MIT)
 
 ## Questions
-For questions about this project please contact iop by email at iooo@jljl; 
-  Github Profile link: (https://github.com/iop) 
+For questions about this project please contact by
+* Email: ndoardo@gmail.com 
+* Github: (https://github.com/ndorado) 

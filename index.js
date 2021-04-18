@@ -57,7 +57,7 @@ function init() {
       },
     ])
     .then((data) => {
-      writeToFile("sREADME.md", generateMarkdown(data));
+      writeToFile("sampleREADME.md", generateMarkdown(data));
     });
 }
 
@@ -65,7 +65,7 @@ function init() {
 function writeToFile(fileName, data) {
   // console.log("this is our path",process.cwd())
   fs.writeFile(path.join(process.cwd(),fileName),data, (err) =>
-    err ? console.error(err) : console.log("Your Professional README was succesfully created!!")
+    err ? console.error(err) : console.log("That was Easypeasy!! Your professional README was succesfully created!!")
   );
 }
 

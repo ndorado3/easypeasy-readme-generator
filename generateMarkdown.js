@@ -25,8 +25,8 @@ function renderLicenseSection(license) {
     return `
 ## License
 This project is license under ${license} license. 
-For more information about this ${license} license, please click  
-[License Link](https://opensource.org/licenses/${license})`
+For more information about ${license} license, please click 
+[Here](https://opensource.org/licenses/${license})`
   }
   return ""
 }
@@ -38,15 +38,16 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
   
 ## Description 
-  ${data.Description}
 
-## Table of Content (test) 
+${data.Description}
+
+## Table of Content  
 
 * [Installation](#installation)
 
 * [Usage](#usage)
 
-* [Crontribution](#contribution)
+* [Contribution](#contribution)
 
 * [Tests](#tests)
 
@@ -73,9 +74,9 @@ ${data.Tests}
 ${renderLicenseSection(data.license)}
 
 ## Questions
-For questions about this project please contact ${data.UserName} by
-* email at ${data.Email} or 
-* Github Profile (https://github.com/${data.UserName}) 
+For questions about this project please contact by
+* Email: ${data.Email} 
+* Github: (https://github.com/${data.UserName}) 
 `;
 }
 
